@@ -25,7 +25,7 @@ public:
      */
     Iterator<T>& next();
 
-    /**
+    /**cd ..
      * @brief Przesuwa iterator do poprzedniego elementu.
      * @return Referencja do iteratora po przesuniêciu.
      */
