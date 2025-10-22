@@ -3,7 +3,7 @@
 #include "node.h"
 
 /**
- * @file Iterator.h
+ * @file iterator.h
  * @brief Definicja klasy Iterator do przechodzenia po liœcie.
  */
 
