@@ -120,3 +120,13 @@ void DoublyLinkedList<T>::removeAtIndex(int index) {
     delete current;
     size--;
 }
+
+template <typename T>
+void DoublyLinkedList<T>::display() {
+    Node<T>* current = head;
+    while (current) {
+        std::cout << current->data << " <-> ";
+        current = current->next;
+    }
+    std::cout << "nullptr" << std::endl;
+}
