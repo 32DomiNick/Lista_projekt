@@ -98,7 +98,7 @@ void DoublyLinkedList<T>::removeFromBack() {
 template <typename T>
 void DoublyLinkedList<T>::removeAtIndex(int index) {
     if (index < 0 || index >= size) {
-        std::cerr << "Error: Index out of bounds." << std::endl;
+        std::cerr << "Nie ma takiego indexu." << std::endl;
         return;
     }
     if (index == 0) {
@@ -130,3 +130,35 @@ void DoublyLinkedList<T>::display() {
     }
     std::cout << "nullptr" << std::endl;
 }
+
+template <typename T>
+void DoublyLinkedList<T>::displayReverse() {
+    Node<T>* current = tail;
+    while (current) {
+        std::cout << current->data << " <-> ";
+        current = current->prev;
+    }
+    std::cout << "nullptr" << std::endl;
+}
+
+template <typename T>
+void DoublyLinkedList<T>::clear() {
+    while (head) {
+        removeFromFront();
+    }
+}
+
+template <typename T>
+Iterator<T> DoublyLinkedList<T>::begin() {
+    return Iterator<T>(head);
+}
+
+template <typename T>
+Iterator<T> DoublyLinkedList<T>::end() {
+    return Iterator<T>(tail);
+}
+
+// Jawne utworzenie instancji szablonu
+template class DoublyLinkedList<int>;
+template class DoublyLinkedList<double>;
+template class DoublyLinkedList<char>;
