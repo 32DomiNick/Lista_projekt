@@ -65,4 +65,58 @@ void DoublyLinkedList<T>::addAtIndex(T data, int index) {
     size++;
 }
 
+template <typename T>
+void DoublyLinkedList<T>::removeFromFront() {
+    if (!head) return;
+    Node<T>* temp = head;
+    if (head == tail) {
+        head = tail = nullptr;
+    }
+    else {
+        head = head->next;
+        head->prev = nullptr;
+    }
+    delete temp;
+    size--;
+}
 
+template <typename T>
+void DoublyLinkedList<T>::removeFromBack() {
+    if (!tail) return;
+    Node<T>* temp = tail;
+    if (head == tail) {
+        head = tail = nullptr;
+    }
+    else {
+        tail = tail->prev;
+        tail->next = nullptr;
+    }
+    delete temp;
+    size--;
+}
+
+template <typename T>
+void DoublyLinkedList<T>::removeAtIndex(int index) {
+    if (index < 0 || index >= size) {
+        std::cerr << "Error: Index out of bounds." << std::endl;
+        return;
+    }
+    if (index == 0) {
+        removeFromFront();
+        return;
+    }
+    if (index == size - 1) {
+        removeFromBack();
+        return;
+    }
+
+    Node<T>* current = head;
+    for (int i = 0; i < index; ++i) {
+        current = current->next;
+    }
+
+    current->prev->next = current->next;
+    current->next->prev = current->prev;
+    delete current;
+    size--;
+}
