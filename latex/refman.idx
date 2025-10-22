@@ -1,0 +1,70 @@
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{5}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!DoublyLinkedList@{DoublyLinkedList}|hyperpage}{5}
+\indexentry{DoublyLinkedList@{DoublyLinkedList}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{5}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!````~DoublyLinkedList@{\texorpdfstring{$\sim$}{\string~}DoublyLinkedList}|hyperpage}{5}
+\indexentry{````~DoublyLinkedList@{\texorpdfstring{$\sim$}{\string~}DoublyLinkedList}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{5}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!addAtIndex@{addAtIndex}|hyperpage}{6}
+\indexentry{addAtIndex@{addAtIndex}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!addToBack@{addToBack}|hyperpage}{6}
+\indexentry{addToBack@{addToBack}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!addToFront@{addToFront}|hyperpage}{6}
+\indexentry{addToFront@{addToFront}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!begin@{begin}|hyperpage}{6}
+\indexentry{begin@{begin}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!clear@{clear}|hyperpage}{6}
+\indexentry{clear@{clear}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!display@{display}|hyperpage}{6}
+\indexentry{display@{display}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!displayReverse@{displayReverse}|hyperpage}{6}
+\indexentry{displayReverse@{displayReverse}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{6}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!end@{end}|hyperpage}{7}
+\indexentry{end@{end}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!removeAtIndex@{removeAtIndex}|hyperpage}{7}
+\indexentry{removeAtIndex@{removeAtIndex}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!removeFromBack@{removeFromBack}|hyperpage}{7}
+\indexentry{removeFromBack@{removeFromBack}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!removeFromFront@{removeFromFront}|hyperpage}{7}
+\indexentry{removeFromFront@{removeFromFront}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!head@{head}|hyperpage}{7}
+\indexentry{head@{head}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!size@{size}|hyperpage}{7}
+\indexentry{size@{size}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}!tail@{tail}|hyperpage}{7}
+\indexentry{tail@{tail}!DoublyLinkedList$<$ T $>$@{DoublyLinkedList$<$ T $>$}|hyperpage}{7}
+\indexentry{Iterator$<$ T $>$@{Iterator$<$ T $>$}|hyperpage}{8}
+\indexentry{Iterator$<$ T $>$@{Iterator$<$ T $>$}!Iterator@{Iterator}|hyperpage}{8}
+\indexentry{Iterator@{Iterator}!Iterator$<$ T $>$@{Iterator$<$ T $>$}|hyperpage}{8}
+\indexentry{Iterator$<$ T $>$@{Iterator$<$ T $>$}!currentItem@{currentItem}|hyperpage}{8}
+\indexentry{currentItem@{currentItem}!Iterator$<$ T $>$@{Iterator$<$ T $>$}|hyperpage}{8}
+\indexentry{Iterator$<$ T $>$@{Iterator$<$ T $>$}!isDone@{isDone}|hyperpage}{8}
+\indexentry{isDone@{isDone}!Iterator$<$ T $>$@{Iterator$<$ T $>$}|hyperpage}{8}
+\indexentry{Iterator$<$ T $>$@{Iterator$<$ T $>$}!next@{next}|hyperpage}{9}
+\indexentry{next@{next}!Iterator$<$ T $>$@{Iterator$<$ T $>$}|hyperpage}{9}
+\indexentry{Iterator$<$ T $>$@{Iterator$<$ T $>$}!prev@{prev}|hyperpage}{9}
+\indexentry{prev@{prev}!Iterator$<$ T $>$@{Iterator$<$ T $>$}|hyperpage}{9}
+\indexentry{Iterator$<$ T $>$@{Iterator$<$ T $>$}!currentNode@{currentNode}|hyperpage}{9}
+\indexentry{currentNode@{currentNode}!Iterator$<$ T $>$@{Iterator$<$ T $>$}|hyperpage}{9}
+\indexentry{ListFactory$<$ T $>$@{ListFactory$<$ T $>$}|hyperpage}{10}
+\indexentry{ListFactory$<$ T $>$@{ListFactory$<$ T $>$}!createList@{createList}|hyperpage}{10}
+\indexentry{createList@{createList}!ListFactory$<$ T $>$@{ListFactory$<$ T $>$}|hyperpage}{10}
+\indexentry{Node$<$ T $>$@{Node$<$ T $>$}|hyperpage}{10}
+\indexentry{Node$<$ T $>$@{Node$<$ T $>$}!Node@{Node}|hyperpage}{10}
+\indexentry{Node@{Node}!Node$<$ T $>$@{Node$<$ T $>$}|hyperpage}{10}
+\indexentry{Node$<$ T $>$@{Node$<$ T $>$}!data@{data}|hyperpage}{11}
+\indexentry{data@{data}!Node$<$ T $>$@{Node$<$ T $>$}|hyperpage}{11}
+\indexentry{Node$<$ T $>$@{Node$<$ T $>$}!next@{next}|hyperpage}{11}
+\indexentry{next@{next}!Node$<$ T $>$@{Node$<$ T $>$}|hyperpage}{11}
+\indexentry{Node$<$ T $>$@{Node$<$ T $>$}!prev@{prev}|hyperpage}{11}
+\indexentry{prev@{prev}!Node$<$ T $>$@{Node$<$ T $>$}|hyperpage}{11}
+\indexentry{fabryka.cpp@{fabryka.cpp}|hyperpage}{13}
+\indexentry{fabryka.h@{fabryka.h}|hyperpage}{13}
+\indexentry{iterator.cpp@{iterator.cpp}|hyperpage}{14}
+\indexentry{iterator.h@{iterator.h}|hyperpage}{14}
+\indexentry{list.cpp@{list.cpp}|hyperpage}{15}
+\indexentry{list.h@{list.h}|hyperpage}{17}
+\indexentry{main.cpp@{main.cpp}|hyperpage}{18}
+\indexentry{main.cpp@{main.cpp}!main@{main}|hyperpage}{18}
+\indexentry{main@{main}!main.cpp@{main.cpp}|hyperpage}{18}
+\indexentry{main.cpp@{main.cpp}!testIterator@{testIterator}|hyperpage}{18}
+\indexentry{testIterator@{testIterator}!main.cpp@{main.cpp}|hyperpage}{18}
+\indexentry{node.h@{node.h}|hyperpage}{18}

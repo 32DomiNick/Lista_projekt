@@ -1,0 +1,124 @@
+\doxysection{Iterator\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\hypertarget{class_iterator}{}\label{class_iterator}\index{Iterator$<$ T $>$@{Iterator$<$ T $>$}}
+
+
+{\ttfamily \#include $<$iterator.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_iterator_aeba51e5a06f438ad5c68c77907de04f4}{Iterator}} (\mbox{\hyperlink{class_node}{Node}}$<$ T $>$ \texorpdfstring{$\ast$}{*}node)
+\begin{DoxyCompactList}\small\item\em Konstruktor iteratora. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_iterator}{Iterator}}$<$ T $>$ \& \mbox{\hyperlink{class_iterator_af66af175d068b7b0b55789564b7035ce}{next}} ()
+\begin{DoxyCompactList}\small\item\em Przesuwa iterator do nastêpnego elementu. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_iterator}{Iterator}}$<$ T $>$ \& \mbox{\hyperlink{class_iterator_a32c4eabec002f117b5439a9a8c6c7232}{prev}} ()
+\begin{DoxyCompactList}\small\item\em Przesuwa iterator do poprzedniego elementu. \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{class_iterator_a58863180fc1314feadc94c8ca15ea044}{current\+Item}} ()
+\begin{DoxyCompactList}\small\item\em Zwraca dane z aktualnego wêz³a. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_iterator_a8edb1353e341a400cf745076f9ff8bba}{is\+Done}} ()
+\begin{DoxyCompactList}\small\item\em Sprawdza, czy iterator zakoñczy³ przechodzenie po liœcie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_node}{Node}}$<$ T $>$ \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_iterator_a40fdf085b514eefbddeee3e077e47ef3}{current\+Node}}
+\end{DoxyCompactItemize}
+
+
+\label{doc-constructors}
+\Hypertarget{class_iterator_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_iterator_aeba51e5a06f438ad5c68c77907de04f4}\index{Iterator$<$ T $>$@{Iterator$<$ T $>$}!Iterator@{Iterator}}
+\index{Iterator@{Iterator}!Iterator$<$ T $>$@{Iterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Iterator()}{Iterator()}}
+{\footnotesize\ttfamily \label{class_iterator_aeba51e5a06f438ad5c68c77907de04f4} 
+template$<$typename T$>$ \\
+\mbox{\hyperlink{class_iterator}{Iterator}}$<$ T $>$\mbox{\hyperlink{class_iterator}{\+::\+Iterator}} (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_node}{Node}}$<$ T $>$ \texorpdfstring{$\ast$}{*}}]{node}{}\end{DoxyParamCaption})}
+
+
+
+Konstruktor iteratora. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em node} & Wêze³, na który ma wskazywaæ iterator. \\
+\hline
+\end{DoxyParams}
+
+
+\label{doc-func-members}
+\Hypertarget{class_iterator_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_iterator_a58863180fc1314feadc94c8ca15ea044}\index{Iterator$<$ T $>$@{Iterator$<$ T $>$}!currentItem@{currentItem}}
+\index{currentItem@{currentItem}!Iterator$<$ T $>$@{Iterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{currentItem()}{currentItem()}}
+{\footnotesize\ttfamily \label{class_iterator_a58863180fc1314feadc94c8ca15ea044} 
+template$<$typename T$>$ \\
+T \mbox{\hyperlink{class_iterator}{Iterator}}$<$ T $>$\+::current\+Item (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Zwraca dane z aktualnego wêz³a. 
+
+\begin{DoxyReturn}{Returns}
+Dane typu T. 
+\end{DoxyReturn}
+\Hypertarget{class_iterator_a8edb1353e341a400cf745076f9ff8bba}\index{Iterator$<$ T $>$@{Iterator$<$ T $>$}!isDone@{isDone}}
+\index{isDone@{isDone}!Iterator$<$ T $>$@{Iterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{isDone()}{isDone()}}
+{\footnotesize\ttfamily \label{class_iterator_a8edb1353e341a400cf745076f9ff8bba} 
+template$<$typename T$>$ \\
+bool \mbox{\hyperlink{class_iterator}{Iterator}}$<$ T $>$\+::is\+Done (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Sprawdza, czy iterator zakoñczy³ przechodzenie po liœcie. 
+
+\begin{DoxyReturn}{Returns}
+True, jeœli iterator wskazuje na nullptr. 
+\end{DoxyReturn}
+\Hypertarget{class_iterator_af66af175d068b7b0b55789564b7035ce}\index{Iterator$<$ T $>$@{Iterator$<$ T $>$}!next@{next}}
+\index{next@{next}!Iterator$<$ T $>$@{Iterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{next()}{next()}}
+{\footnotesize\ttfamily \label{class_iterator_af66af175d068b7b0b55789564b7035ce} 
+template$<$typename T$>$ \\
+\mbox{\hyperlink{class_iterator}{Iterator}}$<$ T $>$ \& \mbox{\hyperlink{class_iterator}{Iterator}}$<$ T $>$\+::next (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Przesuwa iterator do nastêpnego elementu. 
+
+\begin{DoxyReturn}{Returns}
+Referencja do iteratora po przesuniêciu. 
+\end{DoxyReturn}
+\Hypertarget{class_iterator_a32c4eabec002f117b5439a9a8c6c7232}\index{Iterator$<$ T $>$@{Iterator$<$ T $>$}!prev@{prev}}
+\index{prev@{prev}!Iterator$<$ T $>$@{Iterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{prev()}{prev()}}
+{\footnotesize\ttfamily \label{class_iterator_a32c4eabec002f117b5439a9a8c6c7232} 
+template$<$typename T$>$ \\
+\mbox{\hyperlink{class_iterator}{Iterator}}$<$ T $>$ \& \mbox{\hyperlink{class_iterator}{Iterator}}$<$ T $>$\+::prev (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Przesuwa iterator do poprzedniego elementu. 
+
+cd .. \begin{DoxyReturn}{Returns}
+Referencja do iteratora po przesuniêciu. 
+\end{DoxyReturn}
+
+
+\label{doc-variable-members}
+\Hypertarget{class_iterator_doc-variable-members}
+\doxysubsection{Member Data Documentation}
+\Hypertarget{class_iterator_a40fdf085b514eefbddeee3e077e47ef3}\index{Iterator$<$ T $>$@{Iterator$<$ T $>$}!currentNode@{currentNode}}
+\index{currentNode@{currentNode}!Iterator$<$ T $>$@{Iterator$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{currentNode}{currentNode}}
+{\footnotesize\ttfamily \label{class_iterator_a40fdf085b514eefbddeee3e077e47ef3} 
+template$<$typename T$>$ \\
+\mbox{\hyperlink{class_node}{Node}}$<$T$>$\texorpdfstring{$\ast$}{*} \mbox{\hyperlink{class_iterator}{Iterator}}$<$ T $>$\+::current\+Node\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{iterator_8h}{iterator.\+h}}\item 
+\mbox{\hyperlink{iterator_8cpp}{iterator.\+cpp}}\end{DoxyCompactItemize}

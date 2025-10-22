@@ -1,0 +1,17 @@
+\doxysection{fabryka.\+cpp}
+\hypertarget{fabryka_8cpp_source}{}\label{fabryka_8cpp_source}\mbox{\hyperlink{fabryka_8cpp}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{//\ fabryka.cpp}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{fabryka_8h}{fabryka.h}}"{}}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00005\ \mbox{\hyperlink{class_doubly_linked_list}{DoublyLinkedList<T>}}*\ \mbox{\hyperlink{class_list_factory_a2a466233d32060ac8fa6f79ba46112de}{ListFactory<T>::createList}}()\ \{}
+\DoxyCodeLine{00006\ \ \ \ \ \textcolor{keywordflow}{return}\ \textcolor{keyword}{new}\ \mbox{\hyperlink{class_doubly_linked_list}{DoublyLinkedList<T>}}();}
+\DoxyCodeLine{00007\ \}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{comment}{//\ Jawne\ utworzenie\ instancji\ szablonu}}
+\DoxyCodeLine{00010\ \textcolor{keyword}{template}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_list_factory}{ListFactory<int>}};}
+\DoxyCodeLine{00011\ \textcolor{keyword}{template}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_list_factory}{ListFactory<double>}};}
+\DoxyCodeLine{00012\ \textcolor{keyword}{template}\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_list_factory}{ListFactory<char>}};}
+
+\end{DoxyCode}

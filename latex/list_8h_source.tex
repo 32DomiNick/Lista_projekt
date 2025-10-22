@@ -1,0 +1,39 @@
+\doxysection{list.\+h}
+\hypertarget{list_8h_source}{}\label{list_8h_source}\mbox{\hyperlink{list_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{comment}{//\ list.h}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{node_8h}{node.h}}"{}}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{iterator_8h}{iterator.h}}"{}}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00013\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_doubly_linked_list_ab16fd160493247d26572b9bef7fa078b}{DoublyLinkedList}}\ \{}
+\DoxyCodeLine{00014\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00015\ \ \ \ \ \mbox{\hyperlink{class_node}{Node<T>}}*\ \mbox{\hyperlink{class_doubly_linked_list_a386aa26c37cb518153ee25c59cf50ef5}{head}};\ \textcolor{comment}{//\ Wskaünik\ na\ poczπtek\ listy}}
+\DoxyCodeLine{00016\ \ \ \ \ \mbox{\hyperlink{class_node}{Node<T>}}*\ \mbox{\hyperlink{class_doubly_linked_list_abcd895b9a37fbba23390081f44232204}{tail}};\ \textcolor{comment}{//\ Wskaünik\ na\ koniec\ listy}}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_doubly_linked_list_a2715da72bb2ba84f98a4dd763611b96d}{size}};\ \ \ \ \ \ \textcolor{comment}{//\ Rozmiar\ listy}}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{class_doubly_linked_list_ab16fd160493247d26572b9bef7fa078b}{DoublyLinkedList}}();}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00028\ \ \ \ \ \mbox{\hyperlink{class_doubly_linked_list_ade7fbfd3c437d039c88ea9c3b9445150}{\string~DoublyLinkedList}}();}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{comment}{//\ -\/-\/-\/\ Metody\ z\ zadania\ -\/-\/-\/}}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_doubly_linked_list_a967c58ee3954aa72297775a484ed71f8}{addToFront}}(T\ data);}
+\DoxyCodeLine{00032\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_doubly_linked_list_a21845d1d8611540d2a3cce30b21f64ae}{addToBack}}(T\ data);}
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_doubly_linked_list_a6617c45e7c88d3c523986026c73f4cff}{addAtIndex}}(T\ data,\ \textcolor{keywordtype}{int}\ index);}
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_doubly_linked_list_aca1e4e1e361d43ce9a74fe248885b8c7}{removeFromFront}}();}
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_doubly_linked_list_a7bb70dc5d4429b8b7a66761ace3bdd1c}{removeFromBack}}();}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_doubly_linked_list_acd4bb64f528cea854019ad42c465ffe6}{removeAtIndex}}(\textcolor{keywordtype}{int}\ index);}
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_doubly_linked_list_a733d83f0c8329cdc300a6ab7c801b38c}{display}}();}
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_doubly_linked_list_abd4663cf3c4dbe5b519eaf902071b1ed}{displayReverse}}();}
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_doubly_linked_list_a988dab817e94dc8f7b0e8e5b90383971}{clear}}();}
+\DoxyCodeLine{00040\ }
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{comment}{//\ -\/-\/-\/\ Metody\ dla\ iteratora\ -\/-\/-\/}}
+\DoxyCodeLine{00042\ \ \ \ \ \mbox{\hyperlink{class_iterator}{Iterator<T>}}\ \mbox{\hyperlink{class_doubly_linked_list_a40b71db06f92e1e0f9f4ef46c01259a7}{begin}}();}
+\DoxyCodeLine{00043\ \ \ \ \ \mbox{\hyperlink{class_iterator}{Iterator<T>}}\ \mbox{\hyperlink{class_doubly_linked_list_a853d95b394aa43c2cb6fcab3eb6698aa}{end}}();}
+\DoxyCodeLine{00044\ \};}
+
+\end{DoxyCode}
