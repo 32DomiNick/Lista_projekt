@@ -98,7 +98,7 @@ void DoublyLinkedList<T>::removeFromBack() {
 template <typename T>
 void DoublyLinkedList<T>::removeAtIndex(int index) {
     if (index < 0 || index >= size) {
-        std::cerr << "Error: Index out of bounds." << std::endl;
+        std::cerr << "Nie ma takiego indexu." << std::endl;
         return;
     }
     if (index == 0) {
@@ -120,3 +120,5 @@ void DoublyLinkedList<T>::removeAtIndex(int index) {
     delete current;
     size--;
 }
+
+// blad 1
