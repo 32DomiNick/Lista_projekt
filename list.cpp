@@ -122,3 +122,5 @@ void DoublyLinkedList<T>::removeAtIndex(int index) {
 }
 
 // blad 1
+
+// blad 2
